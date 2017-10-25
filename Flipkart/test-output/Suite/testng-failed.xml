@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <test name="chromeTest(failed)" parallel="tests">
+    <parameter name="browser" value="ie"/>
+    <classes>
+      <class name="com.flipkart.TestNG_TC.Browser">
+        <methods>
+          <include name="f"/>
+          <include name="initializingBrowser"/>
+        </methods>
+      </class> <!-- com.flipkart.TestNG_TC.Browser -->
+      <class name="com.flipkart.TestNG_TC.Login">
+        <methods>
+          <include name="f"/>
+          <include name="initializingBrowser"/>
+          <include name="loginFunction"/>
+        </methods>
+      </class> <!-- com.flipkart.TestNG_TC.Login -->
+      <class name="com.flipkart.TestNG_TC.AddingToCart">
+        <methods>
+          <include name="f"/>
+          <include name="initializingBrowser"/>
+          <include name="addCart"/>
+        </methods>
+      </class> <!-- com.flipkart.TestNG_TC.AddingToCart -->
+      <class name="com.flipkart.TestNG_TC.Logout">
+        <methods>
+          <include name="f"/>
+          <include name="initializingBrowser"/>
+          <include name="logoutFromFlipkart"/>
+        </methods>
+      </class> <!-- com.flipkart.TestNG_TC.Logout -->
+      <class name="com.flipkart.TestNG_TC.RemovingProductFromCart">
+        <methods>
+          <include name="f"/>
+          <include name="initializingBrowser"/>
+          <include name="removeFromCart"/>
+        </methods>
+      </class> <!-- com.flipkart.TestNG_TC.RemovingProductFromCart -->
+      <class name="com.flipkart.TestNG_TC.SelectingProduct">
+        <methods>
+          <include name="f"/>
+          <include name="initializingBrowser"/>
+          <include name="selectItem"/>
+        </methods>
+      </class> <!-- com.flipkart.TestNG_TC.SelectingProduct -->
+    </classes>
+  </test> <!-- chromeTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

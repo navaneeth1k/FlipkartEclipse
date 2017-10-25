@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Cart]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.flipkart.TestNG_TC.AddingToCart">
+        <methods>
+          <include name="addCart"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- com.flipkart.TestNG_TC.AddingToCart -->
+      <class name="com.flipkart.TestNG_TC.RemovingProductFromCart">
+        <methods>
+          <include name="init"/>
+          <include name="removeFromCart"/>
+        </methods>
+      </class> <!-- com.flipkart.TestNG_TC.RemovingProductFromCart -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Cart] -->
