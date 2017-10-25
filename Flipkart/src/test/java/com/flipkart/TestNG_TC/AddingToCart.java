@@ -11,7 +11,7 @@ public class AddingToCart extends Browser{
   @Test
   public void addCart() throws Exception 
   {
-	 Thread.sleep(1000);
+	 Thread.sleep(5000);
 	  driver.findElement(By.xpath(ProductInfo.addToCart)).click();
   }
 }
