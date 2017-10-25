@@ -3,8 +3,8 @@
 <suite name="Cart">
   <test name="Test">
     <classes>
-        <class name="com.flipkart.TestNG_TC.Browser"/>
-         <class name="com.flipkart.TestNG_TC.Login"/>
+      <class name="com.flipkart.TestNG_TC.Browser"/>
+      <class name="com.flipkart.TestNG_TC.Login"/>
       <class name="com.flipkart.TestNG_TC.SelectingProduct"/>
       <class name="com.flipkart.TestNG_TC.AddingToCart"/>
       <class name="com.flipkart.TestNG_TC.RemovingProductFromCart"/>
